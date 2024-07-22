@@ -1,0 +1,257 @@
+.contact {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  font-family: inherit;
+}
+.newBusinessNewbusinessvaul,
+.prAndSpeaking,
+.workInquiresWorkvaultflow {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 300;
+}
+.footerLinks,
+.footerLinksWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footerLinks {
+  gap: var(--gap-7xs);
+  font-size: var(--font-size-lg);
+}
+.footerLinksWrapper {
+  gap: var(--gap-base);
+  flex-shrink: 0;
+}
+.careers,
+.careersvaultflowcom {
+  position: relative;
+  letter-spacing: -0.01em;
+}
+.careers {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 91px;
+}
+.careersvaultflowcom {
+  font-size: var(--font-size-lg);
+  font-weight: 300;
+  white-space: nowrap;
+}
+.footerLinksWrapper1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.vaultflowAllRights {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: -0.01em;
+  font-weight: 300;
+  color: var(--color-gray-100);
+}
+.column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  min-width: 300px;
+  max-width: 100%;
+}
+.address {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  font-family: inherit;
+}
+.sanFranciscoCa,
+.thStreetFloor {
+  margin: 0;
+}
+.thStreetFloorContainer {
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 300;
+}
+.addressWrapper,
+.footerLinksWrapper2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.addressWrapper {
+  flex-direction: row;
+  font-size: var(--font-size-lg);
+}
+.footerLinksWrapper2 {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.instagram,
+.social,
+.tikTok,
+.twitter {
+  position: relative;
+  letter-spacing: -0.01em;
+  display: inline-block;
+}
+.social {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  min-width: 71px;
+}
+.instagram,
+.tikTok,
+.twitter {
+  font-weight: 300;
+  min-width: 61px;
+}
+.instagram,
+.tikTok {
+  min-width: 91px;
+}
+.tikTok {
+  min-width: 60px;
+}
+.socials {
+  align-self: stretch;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-7xs);
+  font-size: var(--font-size-lg);
+}
+.column1,
+.footerInfo,
+.footerLinksWrapper3,
+.socials {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footerLinksWrapper3 {
+  align-self: stretch;
+  gap: var(--gap-base);
+}
+.column1,
+.footerInfo {
+  flex: 1;
+  gap: var(--gap-21xl);
+  min-width: 300px;
+  max-width: 100%;
+}
+.footerInfo {
+  flex-direction: row;
+  gap: var(--gap-5xl);
+  min-width: 616px;
+}
+.valtflowIcon {
+  height: 22px;
+  width: 22px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  min-height: 22px;
+}
+.vaultflow {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.03em;
+  line-height: 100%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 106px;
+}
+.footerLogo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-3xl);
+  color: var(--color-whitesmoke-200);
+}
+.footer,
+.footerContent {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.footerContent {
+  width: 1152px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-47xl);
+}
+.footer {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 1200px) {
+  .footerContent {
+    gap: var(--gap-14xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .footerInfo {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .footerInfo {
+    min-width: 100%;
+  }
+  .footerContent {
+    gap: var(--gap-base);
+  }
+}
+@media screen and (max-width: 450px) {
+  .careers,
+  .contact {
+    font-size: var(--font-size-lgi);
+  }
+  .column {
+    gap: var(--gap-xl);
+  }
+  .address,
+  .social {
+    font-size: var(--font-size-lgi);
+  }
+  .column1 {
+    gap: var(--gap-xl);
+  }
+  .vaultflow {
+    font-size: var(--font-size-lg);
+    line-height: 18px;
+  }
+}

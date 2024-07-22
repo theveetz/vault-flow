@@ -1,0 +1,39 @@
+.span {
+  font-weight: 500;
+}
+.trustedByTeamsContainer {
+  position: relative;
+  line-height: 130%;
+}
+.saasFuturisticApp,
+.trust {
+  display: flex;
+  align-items: flex-start;
+}
+.trust {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 40px;
+}
+.saasFuturisticApp {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-300);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-69xl);
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 20px;
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 450px) {
+  .trustedByTeamsContainer {
+    font-size: var(--font-size-base);
+    line-height: 21px;
+  }
+}
